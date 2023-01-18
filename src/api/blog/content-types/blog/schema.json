@@ -19,9 +19,6 @@
       "type": "uid",
       "targetField": "title"
     },
-    "created": {
-      "type": "date"
-    },
     "main_image": {
       "type": "media",
       "multiple": false,
@@ -35,6 +32,18 @@
     },
     "body": {
       "type": "richtext"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "Digital Marketing",
+        "Analytics",
+        "Social Media",
+        "Paid Advertising"
+      ]
+    },
+    "excerpt": {
+      "type": "text"
     }
   }
 }
